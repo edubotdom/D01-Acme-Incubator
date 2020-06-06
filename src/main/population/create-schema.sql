@@ -20,6 +20,17 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `botia_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `expiring_date` datetime(6),
+        `moment` datetime(6),
+        `text_body` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
