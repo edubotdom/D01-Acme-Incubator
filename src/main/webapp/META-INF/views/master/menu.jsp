@@ -19,7 +19,9 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.edubotdom-favourite-link" action="https://www.formula1.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.createBotiaBulletin" action="/anonymous/botia_bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.listBotiaBulletin" action="/anonymous/botia_bulletin/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
